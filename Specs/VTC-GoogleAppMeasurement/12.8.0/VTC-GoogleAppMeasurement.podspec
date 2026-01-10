@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
     s.subspec 'Default' do |ss|
         ss.dependency 'VTC-GoogleAppMeasurement/Core', '12.8.0'
         ss.dependency 'VTC-GoogleAppMeasurement/IdentitySupport', '12.8.0'
-        ss.ios.dependency 'GoogleAdsOnDeviceConversion', '~> 3.2.0'
+        ss.ios.dependency 'VTC-GoogleAdsOnDeviceConversion', '~> 3.2.0'
     end
 
     s.subspec 'Core' do |ss|
