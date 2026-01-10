@@ -40,10 +40,10 @@ Written in Swift & SwiftUI.
 
 
   s.source_files     = 'Sources/goplaysdk/**/*.swift'
-  # s.resources        = ['Sources/goplaysdk/images/**/*']
-  s.resource_bundles = {
-  'goplaysdk' => ['Sources/goplaysdk/images/**/*']
-  }
+  s.resources        = ['Sources/goplaysdk/images/**/*']
+  # s.resource_bundles = {
+  # 'goplaysdk' => ['Sources/goplaysdk/images/**/*']
+  # }
 
  
 
