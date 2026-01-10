@@ -37,17 +37,17 @@ Pod::Spec.new do |s|
     s.default_subspecs = 'Default'
 
     s.subspec 'Default' do |ss|
-        ss.dependency 'GoogleAppMeasurement/Default', '12.8.0'
+        ss.dependency 'VTC-GoogleAppMeasurement/Default', '12.8.0'
         ss.vendored_frameworks = 'Frameworks/FirebaseAnalytics.xcframework'
     end
 
     s.subspec 'Core' do |ss|
-        ss.dependency 'GoogleAppMeasurement/Core', '12.8.0'
+        ss.dependency 'VTC-GoogleAppMeasurement/Core', '12.8.0'
         ss.vendored_frameworks = 'Frameworks/FirebaseAnalytics.xcframework'
     end
 
     s.subspec 'IdentitySupport' do |ss|
-        ss.dependency 'GoogleAppMeasurement/IdentitySupport', '12.8.0'
+        ss.dependency 'VTC-GoogleAppMeasurement/IdentitySupport', '12.8.0'
         ss.vendored_frameworks = 'Frameworks/FirebaseAnalytics.xcframework'
     end
 
