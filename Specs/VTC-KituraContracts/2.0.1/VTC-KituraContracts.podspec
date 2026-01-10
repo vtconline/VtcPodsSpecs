@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.source   = { :git => "https://github.com/Kitura/KituraContracts.git", :tag => s.version }
   s.source_files = "Sources/**/*.swift"
-  s.dependency 'LoggerAPI', '~> 2.0.0'
+  s.dependency 'VTC-LoggerAPI', '~> 2.0.0'
 end
