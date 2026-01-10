@@ -1,6 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VTC-FirebaseInstallations'
+  s.module_name       = 'FirebaseInstallations'
   s.version          = '12.8.0'
   s.summary          = 'Firebase Installations'
 

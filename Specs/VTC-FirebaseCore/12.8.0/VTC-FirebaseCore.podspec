@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VTC-FirebaseCore'
+  s.module_name      = 'FirebaseCore'   # 🔥 DÒNG BẮT BUỘC
   s.version          = '12.8.0'
   s.summary          = 'Firebase Core'
 

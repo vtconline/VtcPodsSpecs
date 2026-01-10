@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VTC-FirebaseCoreInternal'
+  s.module_name       = 'FirebaseCoreInternal'
   s.version          = '12.8.0'
   s.summary          = 'APIs for internal FirebaseCore usage.'
 

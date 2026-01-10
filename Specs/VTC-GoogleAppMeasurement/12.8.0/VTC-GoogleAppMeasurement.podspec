@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'VTC-GoogleAppMeasurement'
+    s.module_name       = 'GoogleAppMeasurement'
     s.version          = '12.8.0'
     s.summary          = 'Shared measurement methods for Google libraries. Not intended for direct use.'
 
