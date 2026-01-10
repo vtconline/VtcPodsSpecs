@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name        = "BlueRSA"
+s.name        = "VTC-BlueRSA"
 s.version     = "1.0.203"
 s.summary     = "Swift cross-platform RSA crypto library using CommonCrypto/libcrypto via Package Manager."
 s.homepage    = "https://github.com/Kitura/BlueRSA"
