@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author     = "IBM"
   s.module_name  = 'KituraContracts'
   s.osx.deployment_target = "10.11"
-  s.ios.deployment_target = "10.0"
+  s.ios.deployment_target = "12.0"
   s.tvos.deployment_target = "9.1"
   s.watchos.deployment_target = "2.0"
   s.source   = { :git => "https://github.com/Kitura/KituraContracts.git", :tag => s.version }

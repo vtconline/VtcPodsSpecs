@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.module_name  = 'LoggerAPI'
   s.swift_version = '5.1'
   s.osx.deployment_target = "10.11"
-  s.ios.deployment_target = "10.0"
+  s.ios.deployment_target = "12.0"
   s.tvos.deployment_target = "9.1"
   s.watchos.deployment_target = "2.0"
   s.source   = { :git => "https://github.com/Kitura/LoggerAPI.git", :tag => s.version }
