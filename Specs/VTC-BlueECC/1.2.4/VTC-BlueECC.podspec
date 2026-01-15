@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.module_name  = 'CryptorECC'
   s.requires_arc = true
   s.osx.deployment_target = "11.5"
-  s.ios.deployment_target = "14.5"
+  s.ios.deployment_target = "13.0"
   s.tvos.deployment_target = "14.5"
   s.watchos.deployment_target = "7.5"
   s.source   = { :git => "https://github.com/Kitura/BlueECC.git", :tag => s.version }
